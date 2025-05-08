@@ -1,0 +1,54 @@
+/* controllerstyle.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #f0f2f5;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.remote-control-page {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.remote-control-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    overflow: hidden;
+}
+
+.remote-control-container p {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+.screen-share {
+    width: 100%;
+    height: calc(100% - 40px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e9ecef;
+    border-radius: 6px;
+}
+
+.screen-share video {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 4px;
+    object-fit: contain;
+}

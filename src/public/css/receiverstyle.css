@@ -1,0 +1,14 @@
+/* receiverstyle.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #f0f2f5;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Additional CSS code omitted for brevity */
